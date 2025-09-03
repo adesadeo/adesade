@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Product Designer</title>
+  <meta name="description" content="Portfolio of Your Name — UI/UX Designer. Case studies, visuals, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">Your Name</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Product Designer crafting intuitive mobile and web experiences</h1>
+      <p>UX research, interaction design, and clean UI. I turn complex problems into simple, delightful flows.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#work">See selected work</a>
+        <a class="btn" href="assets/YourName_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+      </div>
+      <ul class="quick-stats">
+        <li>Tools: Figma, FigJam, Photoshop</li>
+        <li>Focus: Mobile • E‑commerce • Design Systems</li>
+      </ul>
+    </section>
+
+    <section id="work" class="work">
+      <div class="work-head">
+        <h2>Work</h2>
+        <div class="filters">
+          <input id="search" type="search" placeholder="Search title or tag…" aria-label="Search projects">
+          <div class="chips" id="chipContainer">
+            <button data-tag="all" class="chip active">All</button>
+            <button data-tag="Mobile" class="chip">Mobile</button>
+            <button data-tag="Web" class="chip">Web</button>
+            <button data-tag="UI" class="chip">UI</button>
+            <button data-tag="UX" class="chip">UX</button>
+            <button data-tag="Case Study" class="chip">Case Study</button>
+          </div>
+        </div>
+      </div>
+      <div id="grid" class="grid" role="list"></div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>Write a short bio here: your background, the kind of problems you love solving, and what you’re looking for.</p>
+      <ul class="meta">
+        <li>Based in: Your City</li>
+        <li>Open to: Full‑time, Contract, Remote</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Let’s work together.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:youremail@example.com">youremail@example.com</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://dribbble.com/YOUR-DRIBBBLE">Dribbble</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://behance.net/YOUR-BEHANCE">Behance</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Your Name</span>
+    <span>Built in HTML/CSS/JS · Orange accent inspired by your case study</span>
+  </footer>
+</body>
+</html>
