@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "food-delivery-app",
+    "title": "Food Delivery App — Case Study",
+    "description": "End‑to‑end UX/UI for a food delivery experience: research, flows, wireframes, design system, and high‑fidelity screens.",
+    "tags": ["Case Study", "Mobile", "UX", "UI"],
+    "year": 2025,
+    "cover": "assets/images/food-delivery/cover.jpg",
+    "page": "pages/food-delivery.html"
+  }
+]
